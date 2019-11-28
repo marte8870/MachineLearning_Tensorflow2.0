@@ -1,0 +1,102 @@
+Análisis de Datos y Aprendizaje Máquina con Tensorflow 2.0
+==========================
+
+
+
+# Instalación
+
+Primero instalar [Anaconda](https://www.anaconda.com/) y [git](https://git-scm.com/). Después clonar este repositorio escribiendo en la terminal los siguientes comandos:
+
+    $ cd $HOME  # o el directorio de preferencia
+    $ git clone https://github.com/saturno2290/MachineLearning_Tensorflow2.0.git
+
+
+## Python y Bibliotecas Requeridas
+
+### Usando Anaconda
+
+Crear ambiente de trabajo
+
+    $ conda create -n myenv tensorflow scipy matplotlib pandas scikit-learn seaborn pydot pydotplus pillow graphviz
+    $ source activate myenv 
+    
+    
+- Para gpu usar tensorflow-gpu
+
+
+
+###  Jupyter
+    $ conda install -c anaconda jupyter 
+    $ jupyter notebook
+
+
+
+# Contenido
+
+### Pre-procesamiento y manejo de datos para Aprendizaje Máquina (10hrs)
+
+
+
+- [Python, Numpy y Pandas en ejecución](./1.Pre-procesamiento/PdNumpy.ipynb)
+- [Algebra Lineal](./1.Pre-procesamiento/Álgebra-Lineal.ipynb)
+- [Estadística](./1.Pre-procesamiento/Estadística.ipynb)
+- [Exploración de Datos](./1.Pre-procesamiento/Pandas.ipynb)
+- [Visualización de Datos](./1.Pre-procesamiento/Visualización.ipynb)
+
+
+### Aprendizaje Máquina (10hrs)
+#### Clasificación
+
+- [Naive Bayes](./2.Clasificación/Naive-Bayes.ipynb)
+- [Decision Trees](./2.Clasificación/ID3.ipynb)
+- [KNN (parameter tuning)](./2.Clasificación/KNN.ipynb)
+- [Evaluación/Regresión Logística *](./2.Clasificación/Evaluación-Regresion-Logistica.ipynb)
+
+#### Reducción de Dimensionalidad y Clustering
+
+- [PCA](./3.Clustering-ReducciónDimensionalidad/PCA.ipynb)
+- [K-Means](./3.Clustering-ReducciónDimensionalidad/K-means.ipynb)
+
+
+### Deep Learning (30hrs)
+#### Perceptron Multicapa
+
+- [Estructura MLP](./4.PerceptrónMulticapa-Regularización/Estructura-MLP.ipynb)
+- [MLP Imperative/Training loop](./4.PerceptrónMulticapa-Regularización/Estructura-MLP-OOP.ipynb)
+- [Función costo/activación - Inicialización](./4.PerceptrónMulticapa-Regularización/Costo-Activación.ipynb)
+
+
+#### Regularización y Optimización 
+
+- [Optimizadores](./4.PerceptrónMulticapa-Regularización/Optimizadores.ipynb)
+- [Batch Normalization](./4.PerceptrónMulticapa-Regularización/Batch-Norm.ipynb)
+- [Dropout](./4.PerceptrónMulticapa-Regularización/Dropout.ipynb)
+- [L2](./4.PerceptrónMulticapa-Regularización/L2.ipynb)
+- [Evaluación/MLP *](./4.PerceptrónMulticapa-Regularizació/Evaluación-MLP.ipynb)
+
+
+#### Redes Neuronales Recurrentes (Procesamiento de secuencias)
+- [Estructura RNN/LSTM](./5.ProcesamientoSecuencias/RNN.ipynb)
+- [RNN Imperative/Training loop](./5.ProcesamientoSecuencias/RNN-OOP.ipynb)
+- [Clasificación de Texto](./5.ProcesamientoSecuencias/Clasificar-Texto.ipynb)
+- [Deep-Bidirectional RNN/Regularización](./5.ProcesamientoSecuencias/Deep-Bidirectional-RNN.ipynb)
+
+
+#### Redes Neuronales Convolucionales (Procesamiento de imágenes)
+- [Estructura CNN](./6.ProcesamientoImágenes/CNN.ipynb)
+- [CNN Imperative/Training loop](./6.ProcesamientoImágenes/CNN-OOP.ipynb)
+- [Deep CNN/Regularización](./6.ProcesamientoImágenes/CNN2.ipynb)
+- [Computer Vision (Clasificación de objetos)](./6.ProcesamientoImágenes/Computer-Vision.ipynb)
+- [VGG19 (Modelo pre-entrenado)](./6.ProcesamientoImágenes/VGG19.ipynb)
+- [Autoencoders](./6.ProcesamientoImágenes/Autoencoder.ipynb)
+
+
+
+
+
+Evaluaciones *
+
+### Soluciones 
+
+- [Solución/MLP](./4.PerceptrónMulticapa-Regularización/Solución-MLP.ipynb)
+- [Solución/Regresión Logística](./2.Clasificación/Solución-Regresion-Logistica.ipynb)

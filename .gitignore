@@ -1,0 +1,8 @@
+ 
+*.sh
+*.tplx
+*.ipynb_checkpoints
+*.npy
+*.txt
+
+
