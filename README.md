@@ -29,6 +29,15 @@ Crear ambiente de trabajo
     $ conda install -c anaconda jupyter 
     $ jupyter notebook
 
+## Conjuntos de datos que se analizan
+- [Breast Cancer Wisconsin (Diagnostic) dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris)
+- [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/)
+- [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist)
+- [Reuters newswire classification dataset](https://keras.io/datasets/#reuters-newswire-topics-classification)
+- [IMDB Movie Reviews](http://ai.stanford.edu/~amaas/data/sentiment/)
+- [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+
 
 
 # Contenido
@@ -72,7 +81,7 @@ Crear ambiente de trabajo
 - [Batch Normalization](./4.PerceptrónMulticapa-Regularización/Batch-Norm.ipynb)
 - [Dropout](./4.PerceptrónMulticapa-Regularización/Dropout.ipynb)
 - [L2](./4.PerceptrónMulticapa-Regularización/L2.ipynb)
-- [Evaluación/MLP *](./4.PerceptrónMulticapa-Regularizació/Evaluación-MLP.ipynb)
+- [Evaluación/MLP *](./4.PerceptrónMulticapa-Regularización/Evaluación-MLP.ipynb)
 
 
 #### Redes Neuronales Recurrentes (Procesamiento de secuencias)
