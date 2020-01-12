@@ -2,6 +2,7 @@ Análisis de Datos y Aprendizaje Máquina con Tensorflow 2.0
 ==========================
 
 
+#### *Nota: Para última actualización, descargar siempre el commit más reciente de este repositorio
 
 # Instalación
 
@@ -28,6 +29,15 @@ Crear ambiente de trabajo
 ###  Jupyter
     $ conda install -c anaconda jupyter 
     $ jupyter notebook
+
+## Conjuntos de datos que se analizan
+- [Breast Cancer Wisconsin (Diagnostic)](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- [Iris](https://archive.ics.uci.edu/ml/datasets/iris)
+- [MNIST handwritten digit](http://yann.lecun.com/exdb/mnist/)
+- [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)
+- [Reuters newswire classification](https://keras.io/datasets/#reuters-newswire-topics-classification)
+- [IMDB Movie Reviews](http://ai.stanford.edu/~amaas/data/sentiment/)
+- [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Conjuntos de datos que se analizan
 - [Breast Cancer Wisconsin (Diagnostic) dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
@@ -96,7 +106,7 @@ Crear ambiente de trabajo
 - [CNN Imperative/Training loop](./6.ProcesamientoImágenes/CNN-OOP.ipynb)
 - [Deep CNN/Regularización](./6.ProcesamientoImágenes/CNN2.ipynb)
 - [Computer Vision (Clasificación de objetos)](./6.ProcesamientoImágenes/Computer-Vision.ipynb)
-- [VGG19 (Modelo pre-entrenado)](./6.ProcesamientoImágenes/VGG19.ipynb)
+- [VGG19-NASNetLarge (Modelos pre-entrenados)](./6.ProcesamientoImágenes/VGG19-NASNetLarge.ipynb)
 - [Autoencoders](./6.ProcesamientoImágenes/Autoencoder.ipynb)
 
 
