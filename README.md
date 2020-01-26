@@ -2,14 +2,17 @@ Análisis de Datos y Aprendizaje Máquina con Tensorflow 2.0
 ==========================
 
 
-#### *Nota: Para última actualización, descargar siempre el commit más reciente de este repositorio
+#### *Nota1: Mantenimiento completo
+#### *Nota2: Para última actualización, descargar siempre el commit más reciente de este repositorio
+
+
 
 # Instalación
 
 Primero instalar [Anaconda](https://www.anaconda.com/) y [git](https://git-scm.com/). Después clonar este repositorio escribiendo en la terminal los siguientes comandos:
 
     $ cd $HOME  # o el directorio de preferencia
-    $ git clone https://github.com/saturno2290/MachineLearning_Tensorflow2.0.git
+    $ git clone https://github.com/marte8870/MachineLearning_Tensorflow2.0.git
 
 
 ## Python y Bibliotecas Requeridas
@@ -39,14 +42,11 @@ Crear ambiente de trabajo
 - [IMDB Movie Reviews](http://ai.stanford.edu/~amaas/data/sentiment/)
 - [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-## Conjuntos de datos que se analizan
-- [Breast Cancer Wisconsin (Diagnostic) dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
-- [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris)
-- [MNIST handwritten digit dataset](http://yann.lecun.com/exdb/mnist/)
-- [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist)
-- [Reuters newswire classification dataset](https://keras.io/datasets/#reuters-newswire-topics-classification)
-- [IMDB Movie Reviews](http://ai.stanford.edu/~amaas/data/sentiment/)
-- [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+## Obtener otros datasets
+- [Kaggle](https://www.kaggle.com/)
+- [UCI](http://archive.ics.uci.edu/ml/index.php)
+
 
 
 
@@ -78,7 +78,7 @@ Crear ambiente de trabajo
 
 
 ### Deep Learning (30hrs)
-#### Perceptron Multicapa
+#### Perceptrón Multicapa
 
 - [Estructura MLP](./4.PerceptrónMulticapa-Regularización/Estructura-MLP.ipynb)
 - [MLP Imperative/Training loop](./4.PerceptrónMulticapa-Regularización/Estructura-MLP-OOP.ipynb)
