@@ -18,10 +18,7 @@ Primero instalar [Anaconda](https://www.anaconda.com/) y [git](https://git-scm.c
 
 ### Python y Bibliotecas Requeridas
 
-Usando Anaconda
-
-- Crear ambiente de trabajo
-
+Crear ambiente de trabajo
 
     $ conda create -n myenv tensorflow scipy matplotlib pandas scikit-learn seaborn pydot pydotplus pillow graphviz
     $ source activate myenv 
