@@ -1,4 +1,4 @@
-Análisis de Datos y Aprendizaje Máquina con Tensorflow 2.0
+Análisis de Datos y Aprendizaje Máquina con Tensorflow 2
 ==========================
 
 
@@ -8,6 +8,7 @@ Análisis de Datos y Aprendizaje Máquina con Tensorflow 2.0
 
 
 # Instalación
+## Ambiente local
 
 Primero instalar [Anaconda](https://www.anaconda.com/) y [git](https://git-scm.com/). Después clonar este repositorio escribiendo en la terminal los siguientes comandos:
 
@@ -15,11 +16,12 @@ Primero instalar [Anaconda](https://www.anaconda.com/) y [git](https://git-scm.c
     $ git clone https://github.com/marte8870/MachineLearning_Tensorflow2.0.git
 
 
-## Python y Bibliotecas Requeridas
+### Python y Bibliotecas Requeridas
 
-### Usando Anaconda
+Usando Anaconda
 
-Crear ambiente de trabajo
+- Crear ambiente de trabajo
+
 
     $ conda create -n myenv tensorflow scipy matplotlib pandas scikit-learn seaborn pydot pydotplus pillow graphviz
     $ source activate myenv 
@@ -27,7 +29,9 @@ Crear ambiente de trabajo
     
 - Para gpu usar tensorflow-gpu
 
+## Colab
 
+- [Google Colab](https://colab.research.google.com/)
 
 ###  Jupyter
     $ conda install -c anaconda jupyter 
@@ -52,7 +56,7 @@ Crear ambiente de trabajo
 
 # Contenido
 
-### Pre-procesamiento y manejo de datos para Aprendizaje Máquina (10hrs)
+### Pre-procesamiento y manejo de datos para Aprendizaje Máquina
 
 
 
@@ -63,7 +67,7 @@ Crear ambiente de trabajo
 - [Visualización de Datos](./1.Pre-procesamiento/Visualización.ipynb)
 
 
-### Aprendizaje Máquina (10hrs)
+### Aprendizaje Máquina 
 #### Clasificación
 
 - [Naive Bayes](./2.Clasificación/Naive-Bayes.ipynb)
@@ -77,7 +81,7 @@ Crear ambiente de trabajo
 - [K-Means](./3.Clustering-ReducciónDimensionalidad/K-means.ipynb)
 
 
-### Deep Learning (30hrs)
+### Deep Learning 
 #### Perceptrón Multicapa
 
 - [Estructura MLP](./4.PerceptrónMulticapa-Regularización/Estructura-MLP.ipynb)
@@ -112,10 +116,4 @@ Crear ambiente de trabajo
 
 
 
-
-Evaluaciones *
-
-### Soluciones 
-
-- [Solución/MLP](./4.PerceptrónMulticapa-Regularización/Solución-MLP.ipynb)
-- [Solución/Regresión Logística](./2.Clasificación/Solución-Regresion-Logistica.ipynb)
+[Solución MLP](./4.PerceptrónMulticapa-Regularización/Solución-MLP.ipynb) y [solución Regresión Logística](./2.Clasificación/Solución-Regresion-Logistica.ipynb)
