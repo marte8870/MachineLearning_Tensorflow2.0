@@ -26,13 +26,16 @@ Crear ambiente de trabajo
     
 - Para gpu usar tensorflow-gpu
 
+###  Jupyter
+
+    $ conda install -c anaconda jupyter 
+    $ jupyter notebook
+
 ## Colab
 
 - [Google Colab](https://colab.research.google.com/)
 
-###  Jupyter
-    $ conda install -c anaconda jupyter 
-    $ jupyter notebook
+
 
 ## Conjuntos de datos que se analizan
 - [Breast Cancer Wisconsin (Diagnostic)](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
